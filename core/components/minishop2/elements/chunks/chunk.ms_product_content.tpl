@@ -9,18 +9,18 @@
 			<div class="form-group">
 				<label class="col-sm-2 control-label">[[%ms2_product_article]]:</label>
 				<div class="col-sm-3">
-					<label class="checkbox">
+					<p class="form-control-static">
 						[[+article]]
-					</label>
+					</p>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label">[[%ms2_product_price]]:</label>
 				<div class="col-sm-3">
-					<label class="checkbox">
+					<p class="form-control-static">
 						[[!+price]] [[%ms2_frontend_currency]]
 						[[!+old_price:gt=`0`:then=`<span class="old_price">[[+old_price]] [[%ms2_frontend_currency]]</span>`:else=``]]
-					</label>
+					</p>
 				</div>
 			</div>
 			<div class="form-group form-inline">
@@ -42,7 +42,7 @@
 			<div class="form-group">
 				<label class="col-sm-2 control-label">[[%ms2_product_made_in]]:</label>
 				<div class="col-sm-3">
-					<label class="checkbox">[[+made_in]]</label>
+					<p class="form-control-static">[[+made_in]]</p>
 				</div>
 			</div>
 			<div class="form-group">
